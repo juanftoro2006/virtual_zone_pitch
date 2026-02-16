@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>NoA • Propuesta Ejecutiva</title>
+
+  <!-- Tailwind -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      scroll-snap-type: y mandatory;
+    }
+
+    section {
+      scroll-snap-align: start;
+    }
+  </style>
+</head>
+
+
+<body class="bg-slate-950">
+
+  <!-- 🔥 CONTENEDORES DE SLIDES -->
+  <div id="slide-1"></div>
+  <div id="slide-2"></div>
+  <div id="slide-3"></div>
+  <div id="slide-4"></div>
+  <div id="slide-5"></div>
+  <div id="slide-6"></div>
+  <div id="slide-7"></div>
+  <div id="slide-8"></div>
+  <div id="slide-9"></div>
+  <div id="slide-10"></div>
+  <div id="slide-11"></div>
+  <div id="slide-12"></div>
+
+
+  <!-- 🔥 FETCH SIEMPRE AQUÍ ABAJO -->
+  <script>
+    fetch("slides/slide_1.html")
+      .then(res => res.text())
+      .then(html => {
+        document.getElementById("slide-1").innerHTML = html;
+      });
+
+    fetch("slides/slide_2.html")
+      .then(res => res.text())
+      .then(html => {
+        document.getElementById("slide-2").innerHTML = html;
+      });
+
+    fetch("slides/slide_3.html")
+      .then(res => res.text())
+      .then(html => {
+        document.getElementById("slide-3").innerHTML = html;
+      });
+
+    fetch("slides/slide_4.html")
+      .then(res => res.text())
+      .then(html => {
+        document.getElementById("slide-4").innerHTML = html;
+      });
+
+    fetch("slides/slide_5.html")
+      .then(res => res.text())
+      .then(html => {
+        document.getElementById("slide-5").innerHTML = html;
+      });
+    fetch("slides/slide_6.html")
+      .then(res => res.text())
+      .then(html => {
+        document.getElementById("slide-6").innerHTML = html;
+      });
+
+    fetch("slides/slide_7.html")
+      .then(res => res.text())
+      .then(html => {
+        document.getElementById("slide-7").innerHTML = html;
+      });
+
+    fetch("slides/slide_8.html")
+      .then(res => res.text())
+      .then(html => {
+        document.getElementById("slide-8").innerHTML = html;
+      });
+
+    fetch("slides/slide_9.html")
+      .then(res => res.text())
+      .then(html => {
+        document.getElementById("slide-9").innerHTML = html;
+      });
+
+    fetch("slides/slide_10.html")
+      .then(res => res.text())
+      .then(html => {
+        document.getElementById("slide-10").innerHTML = html;
+      });
+
+    fetch("slides/slide_11.html")
+      .then(res => res.text())
+      .then(html => {
+        document.getElementById("slide-11").innerHTML = html;
+      });
+
+    fetch("slides/slide_12.html")
+      .then(res => res.text())
+      .then(html => {
+        document.getElementById("slide-12").innerHTML = html;
+      });
+
+  </script>
+
+</body>
+</html>
